@@ -6,7 +6,7 @@ cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 BINUTILS_PKG="binutils-2.35.1"
 GCC_PKG="gcc-3.0"
-PREFIX_DIR="./install"
+PREFIX_DIR="/usr/bin"
 
 PREFIX_DIR="$(readlink -f "$PREFIX_DIR")"
 
